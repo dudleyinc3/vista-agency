@@ -1,4 +1,10 @@
-var gulp = require('gulp'),
+require('./gulp/tasks/styles');
+require('./gulp/tasks/watch');  
+require('./gulp/tasks/sprites');
+
+
+
+/*var gulp = require('gulp'),
 watch = require('gulp-watch'),
 postcss = require('gulp-postcss'),
 autoprefixer = require('autoprefixer'),
@@ -41,12 +47,12 @@ gulp.task('watch', function(){
   watch('./app/index.html', function(){
     gulp.start('html');
   });
-  watch('./app/assets/styles/**/*.css', function(){
+  watch('./app/assets/styles/**/  /*   *.css', function(){
     gulp.start('cssInject');
   }); 
 });
 
-
+*/
 
 
 
