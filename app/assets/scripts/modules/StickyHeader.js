@@ -45,7 +45,7 @@ class StickyHeader {
             $(matchingHeaderLink).addClass("is-current-link");
           }
         },
-        offset: "25%"
+        offset: "15%"
       });
 
       new Waypoint({
@@ -57,7 +57,7 @@ class StickyHeader {
             $(matchingHeaderLink).addClass("is-current-link");
           }
         },
-        offset: "-40%"
+        offset: "-65%"
       });
     });
   }

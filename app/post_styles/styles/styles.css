@@ -941,8 +941,12 @@ a {
 Instead edit gulp/templates/sprite */
 
 .icon {
-    background-image: url('/assets/images/sprites/sprite-69f19c2e.svg');
-  }
+      background-image: url('/assets/images/sprites/sprite-69f19c2e.svg');
+    }
+
+.no-svg .icon {
+      background-image: url('/assets/images/sprites/sprite-69f19c2e.png');
+    }
 
 .icon--clear-view-escapes {
     width: 142.4px;
@@ -1063,7 +1067,7 @@ Instead edit gulp/templates/sprite */
 	}
 
 .site-header__btn-container {
-		padding-top: 12px;
+		padding-bottom: 10px;
 	}
 
 @media (min-width: 780px){
@@ -1086,7 +1090,7 @@ Instead edit gulp/templates/sprite */
 		transition: transform .5s ease-out;
 		transition: transform .5s ease-out, -webkit-transform .5s ease-out;
 		background-color: #3d4ddb;
-		padding: 18px 36px;
+		padding: 15px 36px;
 		-webkit-box-shadow: 2px 3px gray;
 		        box-shadow: 2px 3px gray;
 		border-radius: 2px;
@@ -1198,7 +1202,7 @@ Instead edit gulp/templates/sprite */
 		transition: all .5s ease-out;
 		position: relative;
 		z-index: -10;
-		padding-top: 87px;
+		padding-top: 82px;
 		text-align: center;
 	}
 
@@ -1208,6 +1212,7 @@ Instead edit gulp/templates/sprite */
 			opacity: 1;
 			z-index: 1;
 			padding-top: 0;
+			padding-bottom: 3px;
 			-webkit-transform: scale(1);
 			        transform: scale(1)
 	}
@@ -1218,6 +1223,7 @@ Instead edit gulp/templates/sprite */
 			z-index: 1;
 			-webkit-transform: scale(1);
 			        transform: scale(1);
+			padding-bottom: 2px;
 		}
 
 .primary-nav {
@@ -1283,7 +1289,7 @@ Instead edit gulp/templates/sprite */
 		display: block;
 		padding: 5px 8px;
 		font-size: .8rem;
-		background-color: rgba(61,77,219, .5);
+		background-color: rgba(61,77,219, .8);
 	}
 
 @media (min-width: 780px){
