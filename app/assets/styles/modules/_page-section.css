@@ -1,5 +1,4 @@
 .page-section {
-
 	padding: 1.2rem;
 
 	@mixin atMedium {
@@ -22,4 +21,8 @@
 			}
 		}
 	}
+}
+
+#our-beginning {
+	background-color: #e0e6ef;
 }

@@ -470,7 +470,7 @@ a {
 
 .large-hero {
 	position: relative;
-	border-bottom: #3d4ddb 5px solid;
+	border-bottom: #3d4ddb 10px solid;
 }
 
 .large-hero__image {
@@ -488,7 +488,7 @@ a {
 		padding-top: 88px;
 	}
 
-@media (min-width: 780px){
+@media (min-width: 820px){
 
 .large-hero__text-content {
 			padding-top: 65px
@@ -500,12 +500,13 @@ a {
 		font-weight: 300;
 		margin: 0;
 		font-size: 2.4rem;
+		text-shadow: 2px 2px 0 rgba(0, 0, 0, .1);
 	}
 
 @media (min-width: 530px){
 
 .large-hero__title {
-			font-size: 4.8rem
+		font-size: 4.8rem
 	}
 	}
 
@@ -514,6 +515,7 @@ a {
 		color: #3d4ddb;
 		font-size: 1.5rem;
 		margin: 0;
+		text-shadow: 2px 2px 0 rgba(0, 0, 0, .1);
 	}
 
 @media (min-width: 530px){
@@ -523,7 +525,7 @@ a {
 	}
 	}
 
-@media (min-width: 780px){
+@media (min-width: 820px){
 
 .large-hero__subtitle {
 			font-size: 2.6rem
@@ -561,6 +563,8 @@ a {
 	border-radius: 5px;
 	padding: .75rem 1.2rem;
 	display: inline-block;
+	-webkit-box-shadow: 2px 3px gray;
+	        box-shadow: 2px 3px gray;
 }
 
 .btn--orange {
@@ -581,8 +585,8 @@ a {
 
 .wrapper {
 	overflow: hidden;
-	padding-left: 34px;
-	padding-right: 34px;
+	padding-left: 45px;
+	padding-right: 45px;
 	max-width: 1236px;
 	margin-left: auto;
 	margin-right: auto;
@@ -601,7 +605,7 @@ a {
 		padding-right: 0;
 	}
 
-@media (min-width: 780px){
+@media (min-width: 820px){
 
 .wrapper--no-padding-until-medium {
 			padding-left: 18px;
@@ -626,11 +630,10 @@ a {
 	}
 
 .page-section {
-
 	padding: 1.2rem;
 }
 
-@media (min-width: 780px){
+@media (min-width: 820px){
 
 .page-section {
 		padding: 4.5rem 0
@@ -653,16 +656,22 @@ a {
 			}
 	}
 
+#our-beginning {
+	background-color: #e0e6ef;
+}
+
 .headline {
 	font-weight: 300;
 	font-size: 1.9rem;
 	color: #3d4ddb;
+	margin-top: 0;
+	padding-top: 20px;
 }
 
 @media (min-width: 530px){
 
 .headline {
-		font-size: 2.875rem
+	font-size: 2.875rem
 }
 	}
 
@@ -745,7 +754,7 @@ a {
 		margin-bottom: 1rem;
 	}
 
-@media (min-width: 780px){
+@media (min-width: 820px){
 		.row__b-margin-until-medium {
 			margin-bottom: 0;
 		}
@@ -771,7 +780,7 @@ a {
 
 /* Begin Equal Height Rules */
 
-@media (min-width: 780px){
+@media (min-width: 820px){
 
 .flexbox .row--equal-height-at-medium {
 			display: -webkit-box;
@@ -907,7 +916,7 @@ a {
 	margin-bottom: 100px;
 }
 
-@media (min-width: 780px){
+@media (min-width: 820px){
 
 .testimonial {
 		padding: 0 1.8125rem 1px 1.8125rem;
@@ -1042,7 +1051,7 @@ Instead edit gulp/templates/sprite */
 		font-weight: 200;
 	}
 
-@media (min-width: 780px){
+@media (min-width: 820px){
 
 .site-footer__text {
 			display: inline;
@@ -1063,7 +1072,7 @@ Instead edit gulp/templates/sprite */
 		background-color: rgba(61,77,219, .55);
 	}
 
-@media (min-width: 780px){
+@media (min-width: 820px){
 
 .site-header {
 	background-color: rgba(61,77,219, .3);
@@ -1080,7 +1089,7 @@ Instead edit gulp/templates/sprite */
 		margin-top: 10px;
 	}
 
-@media (min-width: 780px){
+@media (min-width: 820px){
 
 .site-header__btn-container {
 			float: right
@@ -1100,13 +1109,13 @@ Instead edit gulp/templates/sprite */
 		transition: transform .5s ease-out;
 		transition: transform .5s ease-out, -webkit-transform .5s ease-out;
 		background-color: #3d4ddb;
-		padding: 15px 36px;
+		padding: 15px 46px;
 		-webkit-box-shadow: 2px 3px gray;
 		        box-shadow: 2px 3px gray;
-		border-radius: 2px;
+		border-radius: 4px;
 	}
 
-@media (min-width: 780px){
+@media (min-width: 820px){
 
 .site-header__logo {
 			left: auto;
@@ -1160,6 +1169,8 @@ Instead edit gulp/templates/sprite */
 			border-radius: 8px;
 			-webkit-transition: all .5s ease-out;
 			transition: all .5s ease-out;
+			-webkit-transform-origin: 0 50%;
+			        transform-origin: 0 50%;
 		}
 
 .site-header__menu-icon::after {
@@ -1177,11 +1188,10 @@ Instead edit gulp/templates/sprite */
 			transition: -webkit-transform .5s ease-out;
 			transition: transform .5s ease-out;
 			transition: transform .5s ease-out, -webkit-transform .5s ease-out;
-			-webkit-transform-origin: 0 50%;
-			        transform-origin: 0 50%;
+			transform-origin: 0 100%;
 		}
 
-@media (min-width: 780px){
+@media (min-width: 820px){
 
 .site-header__menu-icon {
 			display: none
@@ -1216,7 +1226,7 @@ Instead edit gulp/templates/sprite */
 		text-align: center;
 	}
 
-@media (min-width: 780px){
+@media (min-width: 820px){
 
 .site-header__menu-content {
 			opacity: 1;
@@ -1240,14 +1250,14 @@ Instead edit gulp/templates/sprite */
 	height: 70px;
 }
 
-@media (min-width: 780px){
+@media (min-width: 820px){
 
 .primary-nav {
 		padding-top: 0
 }
 	}
 
-@media (min-width: 780px){
+@media (min-width: 820px){
 
 .primary-nav--pull-right {
 			float: right
@@ -1270,9 +1280,10 @@ Instead edit gulp/templates/sprite */
 		list-style: none;
 		display: inline-block;
 		padding-right: 7px;
+		text-shadow: 2px 2px 0 rgba(0, 0, 0, .2);
 	}
 
-@media (min-width: 780px){
+@media (min-width: 820px){
 
 .primary-nav li {
 			padding-right: 20px;
@@ -1285,10 +1296,10 @@ Instead edit gulp/templates/sprite */
 		padding-right: 0;
 	}
 
-@media (min-width: 780px){
+@media (min-width: 820px){
 
 .primary-nav li:last-child {
-			padding-right: 20px
+		padding-right: 33px
 	}
 	}
 
@@ -1302,11 +1313,11 @@ Instead edit gulp/templates/sprite */
 		background-color: rgba(61,77,219, .8);
 	}
 
-@media (min-width: 780px){
+@media (min-width: 820px){
 
 .primary-nav a {
-			font-size: 1rem;
-			padding: 35px 0;
+			font-size: 1.1rem;
+			padding: 25px 0;
 			background-color: transparent
 	}
 

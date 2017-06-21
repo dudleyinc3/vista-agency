@@ -22,6 +22,7 @@
 		list-style: none;
 		display: inline-block;
 		padding-right: 7px;
+		text-shadow: 2px 2px 0 rgba(0, 0, 0, .2);
 
 		@mixin atMedium {
 			padding-right: 20px;
@@ -33,7 +34,7 @@
 	li:last-child {
 		padding-right: 0;
 		@mixin atMedium {
-			padding-right: 20px;
+		padding-right: 33px;
 		}
 	}
 
@@ -45,11 +46,12 @@
 		padding: 5px 8px;
 		font-size: .8rem;
 		background-color: rgba($mainBlue, .8);
-		
+
+	
 
 		@mixin atMedium {
-			font-size: 1rem;
-			padding: 35px 0;
+			font-size: 1.1rem;
+			padding: 25px 0;
 			background-color: transparent;
 
 			&.is-current-link {
