@@ -8,9 +8,27 @@
 	&--pull-right {
 		@mixin atMedium{
 			float: right;
-		}
-		
+		}	
 	}
+
+
+	/* Links animation */
+
+	#our-beginning-link:hover {
+		transition: all .5s ease;
+  	color: #ff7f00;
+	}
+	
+	#features-link:hover {
+		transition: all .5s ease;
+  	color: #ff7f00;
+	}
+
+	#testimonials-link:hover {
+		transition: all .5s ease;
+  	color: #ff7f00;
+	}
+
 
 	ul {
 		margin: 0;

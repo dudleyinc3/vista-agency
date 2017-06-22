@@ -1278,9 +1278,28 @@ Instead edit gulp/templates/sprite */
 @media (min-width: 820px){
 
 .primary-nav--pull-right {
-			float: right
-		
+			float: right	
 	}
+	}
+
+/* Links animation */
+
+.primary-nav #our-beginning-link:hover {
+		-webkit-transition: all .5s ease;
+		transition: all .5s ease;
+  	color: #ff7f00;
+	}
+
+.primary-nav #features-link:hover {
+		-webkit-transition: all .5s ease;
+		transition: all .5s ease;
+  	color: #ff7f00;
+	}
+
+.primary-nav #testimonials-link:hover {
+		-webkit-transition: all .5s ease;
+		transition: all .5s ease;
+  	color: #ff7f00;
 	}
 
 .primary-nav ul {
