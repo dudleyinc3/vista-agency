@@ -122,6 +122,7 @@
 		z-index: -10;
 		padding-top: 82px;
 		text-align: center;
+		border-radius: 8px;
 
 		@mixin atMedium {
 			opacity: 1;

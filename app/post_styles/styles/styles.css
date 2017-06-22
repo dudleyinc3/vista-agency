@@ -560,7 +560,7 @@ a {
 	background-color: #3d4ddb;
 	color: #FFF;
 	text-decoration: none;
-	border-radius: 5px;
+	border-radius: 8px;
 	padding: .75rem 1.2rem;
 	display: inline-block;
 	-webkit-box-shadow: 2px 3px gray;
@@ -582,6 +582,24 @@ a {
 		font-size: 1.25rem
 }
 	}
+
+.btn:hover {
+  
+  -webkit-transition: all .7s ease;
+  
+  transition: all .7s ease;
+  border-radius: 8px;
+  background-color: #101d82;
+}
+
+#orng-hvr:hover {
+  
+  -webkit-transition: all .5s ease;
+  
+  transition: all .5s ease;
+  border-radius: 8px;
+  background-color: #ff7f00;
+}
 
 .wrapper {
 	overflow: hidden;
@@ -1224,6 +1242,7 @@ Instead edit gulp/templates/sprite */
 		z-index: -10;
 		padding-top: 82px;
 		text-align: center;
+		border-radius: 8px;
 	}
 
 @media (min-width: 820px){

@@ -4,7 +4,7 @@
 	background-color: $mainBlue;
 	color: #FFF;
 	text-decoration: none;
-	border-radius: 5px;
+	border-radius: 8px;
 	padding: .75rem 1.2rem;
 	display: inline-block;
 	box-shadow: 2px 3px gray;
@@ -21,4 +21,19 @@
 	@mixin atSmall {
 		font-size: 1.25rem
 	}
-}      
+}  
+
+	.btn:hover {
+  
+  transition: all .7s ease;
+  border-radius: 8px;
+  background-color: #101d82;
+}
+
+	#orng-hvr:hover {
+  
+  transition: all .5s ease;
+  border-radius: 8px;
+  background-color: #ff7f00;
+}
+
