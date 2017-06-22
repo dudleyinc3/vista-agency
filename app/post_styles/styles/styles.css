@@ -1242,7 +1242,6 @@ Instead edit gulp/templates/sprite */
 		z-index: -10;
 		padding-top: 82px;
 		text-align: center;
-		border-radius: 8px;
 	}
 
 @media (min-width: 820px){
