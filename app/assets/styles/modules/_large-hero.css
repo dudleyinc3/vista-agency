@@ -56,5 +56,19 @@
 	}
 }
 
+#couple {
+	
+	border: gray solid 1px;
+	box-shadow: 2px 8px 10px gray;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+#blonde {	
+	border: gray solid 1px;
+	box-shadow: 10px 10px 8px gray;
+	border-radius: 5px;
+}
+
 
 
